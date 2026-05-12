@@ -18,8 +18,9 @@ mc alias set s3sspcloud https://minio.lab.sspcloud.fr "" ""
 # === Download all data files ===
 # You can modify the list of files
 FILES=(
-    "s3sspcloud/oliviermeslin/AIML4OS/ETAT_CIVIL/2020/DECES_COM_1019.csv"
-    "s3sspcloud/oliviermeslin/AIML4OS/ETAT_CIVIL/2020/NAISSANCES_COM_1019.csv"
+    #"s3sspcloud/oliviermeslin/AIML4OS/ETAT_CIVIL/2020/DECES_COM_1019.csv"
+    #"s3sspcloud/oliviermeslin/AIML4OS/ETAT_CIVIL/2020/NAISSANCES_COM_1019.csv"
+    "s3sspcloud/neural1977/PUFmerged.csv"
 )
 
 # Function to download with retry
